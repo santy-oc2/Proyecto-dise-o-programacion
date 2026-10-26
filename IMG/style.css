@@ -1,0 +1,15 @@
+.contenido {
+    display: flex;
+    align-items: flex-start;
+    gap: 30px;
+}
+
+.contenido img {
+    width: 360px;
+    height: auto;
+}
+
+.texto {
+    flex: 1;
+    padding: 20px;
+}
