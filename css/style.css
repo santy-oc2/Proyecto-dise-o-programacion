@@ -291,6 +291,7 @@ button:focus-visible, a:focus-visible {
     .imagen-escena {
         width: 100%;
         max-width: 420px;
+        
     }
 
     .tarjetas {
