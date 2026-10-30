@@ -1,0 +1,313 @@
+/* EL DESARROLLADOR MÁS CRACK
+   Se siguió la idea original de usar morados, azules, grises y letra Arial.
+   Este CSS usa propiedades sencillas que vimos en clase: colores, flex, grid y márgenes. */
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 80px;
+}
+
+body {
+    margin: 0;
+    background: #121524;
+    color: #f1f2fb;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+h1, h2, h3 {
+    line-height: 1.25;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+p {
+    margin-top: 0;
+}
+
+.contenedor {
+    width: 90%;
+    max-width: 1050px;
+    margin: auto;
+}
+
+/* Menú superior. Los enlaces están conectados con cada sección del HTML. */
+.encabezado {
+    background: #20243d;
+    border-bottom: 2px solid #6243a5;
+}
+
+.menu {
+    max-width: 1100px;
+    width: 94%;
+    margin: auto;
+    min-height: 72px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+    flex-wrap: wrap;
+    padding: 12px 0;
+}
+
+.logo {
+    font-weight: bold;
+    color: #e7d7ff;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.enlaces-menu {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.enlaces-menu a {
+    color: #f1f2fb;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.enlaces-menu a:hover,
+.logo:hover {
+    color: #bda1ff;
+    text-decoration: underline;
+}
+
+/* Portada: conserva el título y la imagen que ya existían en el proyecto. */
+.portada {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    padding: 65px 0;
+}
+
+.portada-texto {
+    flex: 1;
+}
+
+.portada h1 {
+    font-size: 42px;
+    margin: 10px 0 15px;
+    color: #f8f4ff;
+}
+
+.portada h2 {
+    font-size: 21px;
+    font-weight: normal;
+    color: #c9b7fb;
+}
+
+.portada p {
+    max-width: 580px;
+}
+
+.imagen-portada {
+    width: 36%;
+    max-width: 360px;
+    height: auto;
+    border-radius: 18px;
+    border: 2px solid #6954a5;
+}
+
+.etiqueta {
+    color: #c29bff;
+    font-size: 13px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/* Botones: se mantuvo el diseño morado que ya traía el CSS del estudiante. */
+button {
+    background: #0a0710;
+    color: #ffffff;
+    border: 1px solid #a855f7;
+    border-radius: 8px;
+    padding: 14px 22px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0 0 10px #a855f755;
+}
+
+button:hover {
+    background: #a855f7;
+    color: #ffffff;
+}
+
+button:focus-visible, a:focus-visible {
+    outline: 2px solid #fff;
+    outline-offset: 4px;
+}
+
+/* Cada parte de la historia tiene escenas con imagen y texto. */
+.capitulo {
+    border-top: 3px solid #5c3d9e;
+    padding: 45px 0 58px;
+}
+
+.capitulo > h2 {
+    margin: 4px 0 26px;
+}
+
+.escena {
+    display: flex;
+    align-items: center;
+    gap: 28px;
+    background: #20253b;
+    border: 1px solid #384063;
+    border-radius: 14px;
+    padding: 24px;
+    margin: 20px 0;
+}
+
+.escena-alterna {
+    flex-direction: row-reverse;
+}
+
+.texto-escena {
+    flex: 1;
+}
+
+.texto-escena h3 {
+    margin-top: 0;
+    color: #d7b9ff;
+    font-size: 23px;
+}
+
+.imagen-escena {
+    width: 35%;
+    max-width: 340px;
+    height: auto;
+    border-radius: 10px;
+    background: #151c34;
+}
+
+.siguiente {
+    text-align: right;
+    margin-top: 22px;
+}
+
+.pista {
+    margin-top: 15px;
+    padding: 14px;
+    background: #342c60;
+    border-left: 4px solid #a855f7;
+    border-radius: 6px;
+}
+
+/* Esta lista sirve para mostrar los objetos de Santi. */
+.lista-herramientas {
+    padding-left: 25px;
+}
+
+.lista-herramientas li {
+    margin: 5px 0;
+}
+
+/* Tarjetas sencillas para los seis personajes. */
+.introduccion {
+    color: #e3dff1;
+}
+
+.tarjetas {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 18px;
+}
+
+.tarjeta {
+    background: #20253b;
+    border: 1px solid #384063;
+    border-radius: 12px;
+    padding: 14px;
+}
+
+.tarjeta img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.tarjeta h3 {
+    margin: 10px 0 8px;
+    color: #d7b9ff;
+}
+
+.tarjeta p {
+    font-size: 14px;
+    margin-bottom: 0;
+}
+
+.creditos {
+    text-align: center;
+    background: #20243d;
+    border-top: 3px solid #6243a5;
+    padding: 45px 0;
+}
+
+.creditos h2 {
+    font-size: 36px;
+    margin: 0;
+    color: #d7b9ff;
+}
+
+/* Adaptación para celular: todo queda en una sola columna. */
+@media (max-width: 700px) {
+    .menu {
+        justify-content: center;
+        text-align: center;
+    }
+
+    .enlaces-menu {
+        justify-content: center;
+    }
+
+    .portada,
+    .escena,
+    .escena-alterna {
+        flex-direction: column;
+    }
+
+    .portada {
+        padding: 35px 0;
+    }
+
+    .portada h1 {
+        font-size: 30px;
+    }
+
+    .imagen-portada,
+    .imagen-escena {
+        width: 100%;
+        max-width: 420px;
+    }
+
+    .tarjetas {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .capitulo > h2 {
+        font-size: 27px;
+    }
+}
+
+@media (max-width: 430px) {
+    .tarjetas {
+        grid-template-columns: 1fr;
+    }
+
+    .escena {
+        padding: 17px;
+    }
+}

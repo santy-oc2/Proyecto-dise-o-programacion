@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400">
+ <defs><linearGradient id="a" x2="1" y2="1"><stop stop-color="#232557"/><stop offset="1" stop-color="#11172d"/></linearGradient></defs>
+ <rect width="640" height="400" rx="20" fill="url(#a)"/>
+ <path d="M33 345 H607" stroke="#8d79e5" stroke-width="5" opacity=".5"/>
+ <!-- Santi mayor, con una mecha gris -->
+ <path d="M104 337 Q109 230 182 227 Q263 229 268 337" fill="#49328e" stroke="#101328" stroke-width="7"/>
+ <rect x="169" y="190" width="33" height="58" rx="13" fill="#a87354"/>
+ <ellipse cx="184" cy="140" rx="73" ry="89" fill="#a87354" stroke="#101328" stroke-width="7"/>
+ <path d="M113 143 Q95 75 142 64 Q165 39 204 55 Q247 54 254 112 L242 128 Q210 109 182 92 Q148 112 115 111Z" fill="#171625" stroke="#101328" stroke-width="6"/>
+ <path d="M156 65 Q168 84 149 105" stroke="#cad2df" stroke-width="13" fill="none" stroke-linecap="round"/>
+ <path d="M144 147h24M202 147h22M181 171l-5 14 12 3M158 205q27 9 50-2" stroke="#432a2b" fill="none" stroke-width="5" stroke-linecap="round"/>
+ <!-- El aprendiz -->
+ <path d="M389 343 Q391 237 469 231 Q543 234 554 343" fill="#277393" stroke="#121326" stroke-width="7"/>
+ <rect x="455" y="198" width="30" height="49" rx="10" fill="#ca997b"/>
+ <ellipse cx="470" cy="154" rx="63" ry="77" fill="#ca997b" stroke="#141326" stroke-width="7"/>
+ <path d="M407 151 Q399 101 422 84 L433 66 L461 74 L485 62 L514 81 Q540 101 530 140 Q497 125 485 103 Q459 125 421 119 Z" fill="#2c201e" stroke="#151326" stroke-width="6"/>
+ <path d="M439 155h14M488 155h14M467 173l-4 13 10 3M454 211q19 10 36-3" stroke="#3c292a" fill="none" stroke-width="5" stroke-linecap="round"/>
+ <!-- Transferencia del código, sin escenas de violencia -->
+ <path d="M242 272 L311 240 L405 270" fill="none" stroke="#b9adff" stroke-width="15" stroke-linecap="round"/>
+ <circle cx="316" cy="241" r="32" fill="#8b63fa" stroke="#c4f0ff" stroke-width="7"/>
+ <path d="M299 243l-9-8 9-9M332 225l9 10-9 9M324 218l-13 39" stroke="#e5f9ff" stroke-width="5" fill="none" stroke-linecap="round"/>
+ <circle cx="316" cy="241" r="58" stroke="#a7a2ff" stroke-dasharray="7 9" fill="none" opacity=".5"/>
+ </svg>

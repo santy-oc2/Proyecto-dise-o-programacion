@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400">
+ <defs><linearGradient id="sky" x2="0" y2="1"><stop stop-color="#1b245b"/><stop offset="1" stop-color="#35206e"/></linearGradient></defs>
+ <rect width="640" height="400" rx="20" fill="url(#sky)"/><circle cx="518" cy="77" r="43" fill="#987dff" opacity=".45"/>
+ <g fill="#11152f"><rect x="0" y="194" width="100" height="206"/><rect x="96" y="142" width="103" height="258"/><rect x="196" y="221" width="93" height="179"/><rect x="289" y="166" width="103" height="234"/><rect x="390" y="207" width="97" height="193"/><rect x="487" y="149" width="153" height="251"/></g>
+ <g fill="#8bc6f8" opacity=".7"><path d="M32 229h18v19H32zM62 274h19v20H62zM122 172h16v18h-16zM157 213h16v18h-16zM310 203h18v18h-18zM350 254h17v19h-17zM521 193h18v17h-18zM561 246h18v18h-18z"/></g>
+ <circle cx="316" cy="123" r="90" stroke="#75cfff" stroke-width="5" stroke-dasharray="10 10" fill="none" opacity=".75"/>
+ <path d="M265 181 Q277 141 292 141 L299 120 Q284 99 296 85 Q322 70 336 94 Q340 109 328 120 L339 143 Q369 151 375 197 L333 224 L282 216 Z" fill="#141328" stroke="#a25cff" stroke-width="6"/>
+ <path d="M290 147 L260 250 L214 295 L274 269 L325 206" fill="#5620b7" stroke="#a25cff" stroke-width="5"/>
+ <path d="M314 165 l-12 18 11 0 -3 18 29 -29 -15 0 8 -7z" fill="#72cfff"/>
+ <g stroke="#78cdff" stroke-width="4"><path d="M361 134 L452 89 M274 132 L180 74 M321 228 L370 301"/></g>
+ <g fill="#b8edff"><circle cx="452" cy="89" r="9"/><circle cx="180" cy="74" r="9"/><circle cx="370" cy="301" r="9"/></g>
+ </svg>

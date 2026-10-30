@@ -3,117 +3,176 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>El desarrollador mas crack</title>
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>El Desarrollador Más Crack</title>
+    <!-- Se mantiene la idea del proyecto original y se utiliza el CSS de la carpeta css. -->
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+    <!-- MENÚ: antes los enlaces no llevaban a ninguna parte. Ahora van a las secciones. -->
+    <header class="encabezado" id="inicio">
+        <nav class="menu">
+            <a class="logo" href="#inicio">El Desarrollador Más Crack</a>
+            <div class="enlaces-menu">
+                <a href="#inicio">Inicio</a>
+                <a href="#parte1">Parte 1</a>
+                <a href="#parte2">Parte 2</a>
+                <a href="#parte3">Parte 3</a>
+                <a href="#personajes">Personajes</a>
+                <a href="#creditos">Créditos</a>
+            </div>
+        </nav>
+    </header>
 
-    <!--inicia Navbar de boostrap-->
+    <main>
+        <!-- PORTADA: se conserva la foto/ilustración que ya estaba en el ZIP original. -->
+        <section class="portada contenedor" aria-labelledby="titulo-principal">
+            <div class="portada-texto">
+                <p class="etiqueta">Un cuento de ciencia ficción</p>
+                
+                <h1 id="titulo-principal">EL DESARROLLADOR MÁS CRACK</h1>
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="#">El desarrollador mas crack</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Personajes</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">parte 1</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">parte 2</a>
-        </li>
-          <li class="nav-item">
-          <a class="nav-link" href="#">parte 3</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true"><del>parte 4</del> Proximamente</a>
-        </li>
-      </ul>
-    </div>
-  </div>
-</nav>
-<!--termina Navbar de boostrap-->
+                <h2>Una historia de un niño genio que se vuelve un superhéroe</h2>
+                <p>Santiago tiene un sueño: convertirse en el mejor desarrollador. Lo que no sabe es que un día sus inventos 
+                    van a cambiar su vida y ayudar a muchas personas.</p>
 
-<!--parte 1-->\
+                <button type="button" onclick="irA('parte1')">Comenzar historia →</button>
 
-<div style="text-align: center;">
-<h1> EL DESARROLLADOR MAS CRACK</h1 >
-<h3>Una historia de un niño genio que se vulve un superheroe</h3>
+            </div>
+            <img class="imagen-portada" src="IMG/progra.png" alt="Imagen original de Santiago como desarrollador y superhéroe">
+        </section>
 
-<img src="IMG/progra.png" alt="" height="300px" width="300px" style="border-radius: 10%;  ;">
-<br> <br>
-<button style="border-radius: 15%; height: 50px; width: 100px;">Comenzar</button >
-</div>
+        <!-- PARTE 1: dos escenas para mostrar cómo comenzó todo. -->
+        <section id="parte1" class="capitulo contenedor" aria-labelledby="parte1-titulo">
+            <p class="etiqueta">PARTE 1 · Antes de ser superhéroe</p>
 
-<!--Presentacion final --> <hr style="height: 5px; color: rgb(90, 20, 255);">
-<h3>Parte 1: El comienzo</h3>
-<h1>Antes de ser un heroe</h1>
+            <h2 id="parte1-titulo">El comienzo de un sueño</h2>
 
-<div style="display: flex; align-items: flex-start; gap: 30px; padding: 20px;">
+            <article class="escena">
+                <div class="texto-escena">
+                    <h3>Escena 1: La infancia de Santi</h3>
+                    
+                    <p>Desde pequeño, Santi tenía una inteligencia increíble y soñaba con convertirse en un gran desarrollador. Pasaba horas aprendiendo programación y creando sus primeros proyectos.</p>
+                    <p>Vivía en Escazú y siempre tenía una nueva idea. A veces sus programas no funcionaban, pero él volvía a intentarlo hasta encontrar la solución.</p>
+                    <p>Sus mejores amigos, Brandi, Chata, Tomás y Matías, lo acompañaban en sus ocurrencias. Aunque no siempre entendían sus inventos, creían mucho en él.</p>
+                </div>
+                <img class="imagen-escena" src="IMG/santi-nino.svg" alt="Dibujo de Santi cuando era niño">
+            </article>
+            <article class="escena escena-alterna">
+                <div class="texto-escena">
+                    <h3>Escena 2: El código especial</h3>
+                    <p>Pasaron los años y Santi cumplió su sueño de convertirse en desarrollador. Ya de adulto, creó un laboratorio pequeño para trabajar en su invento más importante.</p>
+                    <p>Su idea era un código de ciencia ficción que pudiera unirse a su cuerpo y darle habilidades tecnológicas. Brandi lo animaba, Chata ayudaba con las ideas, Tomás revisaba los errores y Matías probaba los dispositivos.</p>
+                    <p>Celeste, su novia, siempre lo apoyó, pero también le recordó que debía usar sus inventos para hacer el bien. Una noche el experimento funcionó: Santi podía conectarse con máquinas y crear herramientas de energía digital. ¡Había nacido el Desarrollador Más Crack!</p>
+                    <button type="button" id="boton-pista" onclick="mostrarPista()" aria-expanded="false" aria-controls="pista">Descubrir el secreto del código</button>
+                    <p id="pista" class="pista" hidden>¡El secreto era que el código respondía a la creatividad de Santi! Cuanto más pensaba en ayudar a alguien, mejor funcionaban sus poderes.</p>
+                </div>
+                <img class="imagen-escena" src="IMG/laboratorio.svg" alt="Laboratorio con computadora y el código especial de Santi">
+            </article>
+            <div class="siguiente"><button type="button" onclick="irA('parte2')">Continuar a la parte 2 →</button></div>
+        </section>
 
-    <!-- Texto a la izquierda -->
-    <div style="flex: 1; padding: 10px;">
-        <h2>La infancia de Santi</h2>
+        <!-- PARTE 2: dos escenas sobre la vida de Santi como héroe. -->
+        <section id="parte2" class="capitulo contenedor" aria-labelledby="parte2-titulo">
+            <p class="etiqueta">PARTE 2 · Ya siendo superhéroe</p>
+            <h2 id="parte2-titulo">El héroe de la tecnología</h2>
+            <article class="escena">
+                <div class="texto-escena">
+                    <h3>Escena 3: Su primera misión</h3>
+                    <p>Un día hubo una falla eléctrica que dejó a muchas personas de la ciudad sin comunicación. Santi se puso su traje y decidió ayudar.</p>
+                    <p>Usó sus poderes para encontrar el problema y volver a conectar los sistemas. Sus amigos lo ayudaron desde el laboratorio, mientras Celeste se aseguraba de que las personas estuvieran bien.</p>
+                    <p>Cuando todo volvió a funcionar, Santi entendió que ser un héroe no era tener los mejores poderes, sino saber utilizarlos para ayudar.</p>
+                </div>
+                <img class="imagen-escena" src="IMG/mision.svg" alt="El superhéroe Santi sobre una ciudad de noche">
+            </article>
+            <article class="escena escena-alterna">
+                <div class="texto-escena">
+                    <h3>Escena 4: Ayudando al mundo</h3>
+                    <p>Con el tiempo Santi comenzó a viajar a otros países. Ayudaba a recuperar comunicaciones después de tormentas y construía aparatos para rescatar personas.</p>
+                    <p>Aunque ahora era famoso, nunca se olvidó de su equipo ni de Escazú. Siempre regresaba para contar sus aventuras y compartir tiempo con Celeste y sus amigos.</p>
+                    <p>Para sus misiones utilizaba tres cosas importantes:</p>
+                    <!-- LISTA: incluida porque el PDF pide al menos una lista. -->
+                    <ul class="lista-herramientas">
+                        <li>Su traje con tecnología especial.</li>
+                        <li>Un visor que encontraba fallas.</li>
+                        <li>Su computadora para hablar con el equipo.</li>
+                    </ul>
+                </div>
+                <img class="imagen-escena" src="IMG/mundo.svg" alt="Mapa del mundo con las misiones de Santi">
+            </article>
+            <div class="siguiente"><button type="button" onclick="irA('parte3')">Continuar a la parte 3 →</button></div>
+        </section>
 
-        <p style="font-size: 18px; line-height: 1.6;">
-            Desde pequeño, Santi tenía una inteligencia increíble
-            y soñaba con convertirse en un gran desarrollador.
-            Pasaba horas aprendiendo programación y creando
-            sus primeros proyectos.
-        </p>
-    </div>
+        <!-- PARTE 3: el final que Santiago había planeado en su documento de Word. -->
+        <section id="parte3" class="capitulo contenedor" aria-labelledby="parte3-titulo">
+            <p class="etiqueta">PARTE 3 · El aprendiz</p>
+            <h2 id="parte3-titulo">Un nuevo comienzo</h2>
+            <article class="escena">
+                <div class="texto-escena">
+                    <h3>Escena 5: El último regalo de Santi</h3>
+                    <p>Después de muchos años salvando el día, Santi ya estaba mayor y quería descansar. Había conocido muchos lugares y vivido aventuras increíbles, pero sabía que era momento de dejarle su lugar a otra persona.</p>
+                    <p>Entonces decidió preparar a un joven aprendiz. Le enseñó a programar, a solucionar problemas y, sobre todo, a escuchar a las personas antes de actuar.</p>
+                    <p>Cuando terminó el entrenamiento, Santi le entregó su dispositivo especial y le dijo: «No hace falta ser el más poderoso para ser un héroe; lo importante es ayudar».</p>
+                    <p>El aprendiz salió a vivir sus primeras aventuras. Santi sonrió y volvió a casa con Celeste, feliz porque el mundo tenía un nuevo héroe. <strong>FIN.</strong></p>
+                </div>
+                <img class="imagen-escena" src="IMG/aprendiz.svg" alt="Santi ya mayor enseñando a un joven aprendiz">
+            </article>
+            <div class="siguiente"><button type="button" onclick="irA('personajes')">Conocer a los personajes →</button></div>
+        </section>
 
-    <!-- Imagen a la derecha -->
-    <img src="IMG/progra.png
-" alt="Santi, el desarrollador"
-         style="width: 360px; height: auto;">
+        <!-- PERSONAJES: ilustraciones nuevas hechas para esta historia. -->
+        <section id="personajes" class="capitulo contenedor" aria-labelledby="personajes-titulo">
+            <p class="etiqueta">El equipo</p>
+            <h2 id="personajes-titulo">Personajes de la historia</h2>
+            <p class="introduccion">Estas son las personas que acompañaron a Santi en su aventura.</p>
+            <div class="tarjetas">
+                <article class="tarjeta">
+                    <img src="IMG/progra.png" alt="Santiago, el protagonista de la historia" loading="lazy">
+                    <h3>Santiago</h3>
+                    <p>El protagonista. Es un desarrollador muy inteligente que se convierte en superhéroe usando tecnología.</p>
+                </article>
+                <article class="tarjeta">
+                    <img src="IMG/brandi.svg" alt="Brandi, chico moreno y musculoso" loading="lazy">
+                    <h3>Brandi</h3>
+                    <p>Es moreno, musculoso y el mejor amigo de Santi. Siempre lo motiva a seguir adelante.</p>
+                </article>
+                <article class="tarjeta">
+                    <img src="IMG/chata.svg" alt="Chata, chico moreno con lentes y mohawk negro" loading="lazy">
+                    <h3>Chata</h3>
+                    <p>Es moreno, usa lentes y tiene un mohawk negro. Ayuda a pensar ideas nuevas para los inventos.</p>
+                </article>
+                <article class="tarjeta">
+                    <img src="IMG/tomas.svg" alt="Tomás, chico moreno con lentes y pelo negro corto y ondulado" loading="lazy">
+                    <h3>Tomás</h3>
+                    <p>Es moreno, usa lentes y tiene el pelo corto, negro y ondulado. Es bueno encontrando errores.</p>
+                </article>
+                <article class="tarjeta">
+                    <img src="IMG/matias.svg" alt="Matías, chico de piel clara y cabello café" loading="lazy">
+                    <h3>Matías</h3>
+                    <p>Es de piel clara y cabello café. Es amigo de Santi y lo ayuda a probar sus nuevos aparatos.</p>
+                </article>
+                <article class="tarjeta">
+                    <img src="IMG/celeste.svg" alt="Celeste, chica morena de pelo café y ojos cafés" loading="lazy">
+                    <h3>Celeste</h3>
+                    <p>Es morena, de pelo y ojos cafés. Es la novia de Santi, lo apoya y le recuerda hacer el bien.</p>
+                </article>
+            </div>
+            <div class="siguiente"><button type="button" onclick="irA('creditos')">Ver el final y los créditos →</button></div>
+        </section>
+    </main>
 
-</div>
+    <!-- CRÉDITOS: cierre y botón que permite empezar otra vez. -->
+    <footer id="creditos" class="creditos">
+        <div class="contenedor">
+            <h2>FIN</h2>
+            <h3>Créditos</h3>
+            <p>Historia y proyecto web creado por Santiago Oviedo.</p>
+            <p>Personajes: Santiago, Brandi, Chata, Tomás, Matías y Celeste.</p>
+            <p>Proyecto de Programación Web · Décimo año · II semestre</p>
+            <button type="button" onclick="irA('inicio')">Volver al inicio ↑</button>
+        </div>
+    </footer>
 
-
-<div style="display: flex; justify-content: flex-end; margin: 20px;">
-<button>continuar →</button>
-</div>
-\
-<!--Parte 2--> <hr style="height: 5px; color: rgb(90, 20, 255);">
-
-<div style="display: flex; align-items: flex-start; gap: 30px; padding: 20px;">
-
-    <!-- Imagen a la izquierda -->
-    <img src="IMG/progra.png" alt="Santi, el desarrollador"
-         style="width: 360px; height: auto;">
-
-    <!-- Texto a la derecha -->
-    <div style="flex: 1; padding: 10px;">
-        <h2>La infancia de Santi</h2>
-
-        <p style="font-size: 18px; line-height: 1.6;">
-            Desde pequeño, Santi tenía una inteligencia increíble
-            y soñaba con convertirse en un gran desarrollador.
-            Pasaba horas aprendiendo programación y creando
-            sus primeros proyectos.
-        </p>
-    </div>
-
-</div>
-
-<!-- Botón en la parte inferior derecha -->
-<div style="display: flex; justify-content: flex-end; margin: 20px;">
-  <button>continuar →</button>
-</div>
-
-
-
-
-
-
-
-
-
+    <!-- JavaScript separado para que el código esté más ordenado. -->
+    <script src="js/script.js"></script>
 </body>
 </html>

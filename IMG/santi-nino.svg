@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 360" role="img" aria-label="Ilustración de Santiago de niño">
+      <defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#32216b"/><stop offset="1" stop-color="#0e142a"/></linearGradient></defs>
+      <rect width="360" height="360" rx="25" fill="url(#bg)"/>
+      <circle cx="292" cy="58" r="84" fill="#7c55d7" opacity=".15"/><circle cx="58" cy="271" r="95" fill="#36a0ef" opacity=".09"/>
+      <path d="M20 47 H88 M275 307 H342 M28 82 H58" stroke="#6fb8ff" stroke-width="3" opacity=".45"/>
+      <path d="M47 340 Q43 263 112 244 L143 233 L217 233 L248 244 Q317 262 313 340 Z" fill="#543b91" stroke="#17152b" stroke-width="7"/>
+        <path d="M134 237 L180 271 L226 237" fill="none" stroke="#9986e5" stroke-width="8"/>
+        <path d="M79 295 L95 340 M281 295 L265 340" stroke="#111225" stroke-width="5" opacity=".45"/><rect x="157" y="213" width="47" height="55" rx="18" fill="#b17c5c" stroke="#171321" stroke-width="5"/>
+    <ellipse cx="103" cy="166" rx="16" ry="28" fill="#b17c5c" stroke="#161321" stroke-width="5"/>
+    <ellipse cx="257" cy="166" rx="16" ry="28" fill="#b17c5c" stroke="#161321" stroke-width="5"/>
+    <path d="M107 111 Q115 68 182 64 Q250 67 254 127 L250 196 Q233 242 182 247 Q128 239 110 198 Z" fill="#b17c5c" stroke="#161321" stroke-width="7"/>
+    <path d="M130 157 Q147 149 163 157 M197 157 Q214 149 230 157" fill="none" stroke="#2c1b1d" stroke-width="6" stroke-linecap="round"/>
+    <ellipse cx="146" cy="169" rx="6.3" ry="7" fill="#201519"/><ellipse cx="213" cy="169" rx="6.3" ry="7" fill="#201519"/>
+    <path d="M179 169 L174 191 L186 195" fill="none" stroke="#623c35" stroke-width="4" stroke-linecap="round"/>
+    <path d="M160 214 Q180 226 200 212" fill="none" stroke="#5e3035" stroke-width="4.5" stroke-linecap="round"/><path d="M102 135 L98 102 L118 91 L116 64 L140 75 L157 50 L173 61 L192 43 L211 63 L234 55 L237 82 L257 89 L251 133 L230 111 Q205 120 182 104 Q162 123 139 105 Q121 122 102 135" fill="#12111d" stroke="#151321" stroke-width="7" stroke-linejoin="round"/>
+        <path d="M140 79 L152 91 M188 66 L197 80" stroke="#393044" stroke-width="5"/><rect x="92" y="275" width="176" height="14" rx="7" fill="#20203f" opacity=".22"/>
+      <rect x="5" y="5" width="350" height="350" rx="20" fill="none" stroke="#a5b7ff" opacity=".18" stroke-width="3"/>
+    </svg>
